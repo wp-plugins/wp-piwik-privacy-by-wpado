@@ -20,7 +20,7 @@ Weitere Informationen erhalten Sie unter:
 
 = Installation via Wordpress =
 
-1. Menu \'PluginsWP-Piwik Privacy by WPADO -> "Installieren" und nach "WP-Piwik Privacy by WPADO" suchen
+1. Menu "Plugins" -> "Installieren" und nach "WP-Piwik Privacy by WPADO" suchen
 2. Installieren klicken
 
 = Manuelle Installation =
@@ -43,3 +43,4 @@ Keine.
 * Datum: 29.05.2015
 * Unterstützung Piwik-Version 2.13.1 (http://piwik.org/download/)
 * Unterstützung WP-Piwik 0.10.1.0 (https://wordpress.org/plugins/wp-piwik/)
+
