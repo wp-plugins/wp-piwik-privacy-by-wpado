@@ -59,7 +59,7 @@ if( ! class_exists( 'wpado_piwik_privacy' ) ) {
 
 			}
 
-			$out .= '<iframe id="nwpado_piwik_privacy" src="' . $PiwikUrl . '" height="220" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="width:100%; height:auto; background:none repeat scroll 0 0 transparent;"></iframe>';
+			$out .= '<iframe id="wpado_piwik_privacy" src="' . $PiwikUrl . '" height="220" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="width:100%; height:auto; background:none repeat scroll 0 0 transparent;"></iframe>';
 
 			return $out;
 
