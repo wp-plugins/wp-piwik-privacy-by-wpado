@@ -3,7 +3,7 @@
  * Plugin Name: WP-Piwik Privacy by WPADO
  * Plugin URI: http://www.wp-agentur-do.de/referenzen-eintrag/wp-piwik-privacy-by-wpado/
  * Description: Erstellt den Shortcode <code>[wpado_piwik_privacy]</code> um das Tracking von dem Analyse-Tool Piwik (http://piwik.org/) zu deaktivieren.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: WP Agentur Dortmund
  * Author URI: http://www.wp-agentur-do.de
  * License: GPL2
@@ -45,11 +45,21 @@ if( ! class_exists( 'wpado_piwik_privacy' ) ) {
 
 			} else {
 
-				$PiwikUrl = esc_url($PiwikUrl . '?module=CoreAdminHome&amp;action=optOut&amp;language=de');
+				if ( function_exists('icl_object_id') ) {
+
+					$lang = ICL_LANGUAGE_CODE;
+
+				} else {
+
+					$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+
+				}
+
+				$PiwikUrl = esc_url($PiwikUrl . '?module=CoreAdminHome&amp;action=optOut&amp;language=' . $lang);
 
 			}
 
-			$out .= '<iframe id="wpado_piwik_privacy" src="' . $PiwikUrl . '" height="220" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="width:100%; height:auto; background:none repeat scroll 0 0 transparent;"></iframe>';
+			$out .= '<iframe id="nwpado_piwik_privacy" src="' . $PiwikUrl . '" height="220" width="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="width:100%; height:auto; background:none repeat scroll 0 0 transparent;"></iframe>';
 
 			return $out;
 
