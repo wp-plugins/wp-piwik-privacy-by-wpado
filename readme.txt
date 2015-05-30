@@ -26,7 +26,7 @@ Weitere Informationen erhalten Sie unter:
 = Manuelle Installation =
 
 1. Plugin herunterladen und entpacken
-2. Verzeichnis "wpado-piwik-privacy" nach "/wp-content/plugins/" hochladen.
+2. Verzeichnis "wp-piwik-privacy-by-wpado" nach "/wp-content/plugins/" hochladen.
 3. Plugin aktivieren.
 
 == Frequently Asked Questions ==
