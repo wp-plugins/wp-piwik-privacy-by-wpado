@@ -41,7 +41,7 @@ Keine.
 
 = 1.0.3 =
 * Datum: 30.05.2015
-* Unterstützung Piwik-Plugin "CustomOptOut" (http://plugins.piwik.org/customoptout) zur grafischen Anpassung
+* Unterstützung Piwik-Plugin "CustomOptOut" 0.2.5 (http://plugins.piwik.org/customoptout) zur grafischen Anpassung
 
 = 1.0.2 =
 * Datum: 30.05.2015
