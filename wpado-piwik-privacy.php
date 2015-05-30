@@ -3,7 +3,7 @@
  * Plugin Name: WP-Piwik Privacy by WPADO
  * Plugin URI: http://www.wp-agentur-do.de/referenzen-eintrag/wp-piwik-privacy-by-wpado/
  * Description: Erstellt den Shortcode <code>[wpado_piwik_privacy]</code> um das Tracking von dem Analyse-Tool Piwik (http://piwik.org/) zu deaktivieren.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: WP Agentur Dortmund
  * Author URI: http://www.wp-agentur-do.de
  * License: GPL2
