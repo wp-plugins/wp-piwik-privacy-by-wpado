@@ -3,7 +3,7 @@ Contributors: thorbenr
 Tags: piwik, analytics, privatsphäre, privacy
 Requires at least: 3.2
 Tested up to: 4.3-alpha-32517
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2
 
 Erstellt den Shortcode [wpado_piwik_privacy] um das Tracking von dem Analyse-Tool Piwik zu deaktivieren.
