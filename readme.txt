@@ -3,7 +3,7 @@ Contributors: thorbenr
 Tags: piwik, analytics, privatsphäre, privacy
 Requires at least: 3.2
 Tested up to: 4.3-alpha-32517
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2
 
 Erstellt den Shortcode [wpado_piwik_privacy] um das Tracking von dem Analyse-Tool Piwik zu deaktivieren.
@@ -38,6 +38,10 @@ Bei Fragen nutze Sie bitte das Kontaktformular unter [http://www.wp-agentur-do.d
 Keine.
 
 == Changelog ==
+
+= 1.0.3 =
+* Datum: 30.05.2015
+* Unterstützung Piwik-Plugin "CustomOptOut" (http://plugins.piwik.org/customoptout) zur grafischen Anpassung
 
 = 1.0.2 =
 * Datum: 30.05.2015
