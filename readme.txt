@@ -16,10 +16,10 @@ Der Seiteninhaber kann die Deaktivierungsmöglichkeit mit dem Shortcode
     [wpado_piwik_privacy]
 einfügen.
 
-**Des Weiteren können folgende Optionen ausgewählt werden:**
-* css: "yes" oder "no" (Wenn das Piwik-Plugin "CustomOptOut" installiert und aktiviert ist, kann die Ausgabe angepasst werden)
-* width: z.B. "100%"
-* height: z.B. "200px"
+**Des Weiteren können folgende Optionen ausgewählt werden:** 
+* css: "yes" oder "no" (Wenn das Piwik-Plugin "CustomOptOut" installiert und aktiviert ist, kann die Ausgabe angepasst werden) 
+* width: z.B. "100%" 
+* height: z.B. "200px" 
 
 Der Shortcode sieht dann wie folgt aus:
     [wpado_piwik_privacy css="yes" width="100%" height="200px"]
@@ -64,7 +64,6 @@ Keine.
 * Datum: 31.05.2015
 * Unterstützung WP-Piwik 1.0.1 (https://wordpress.org/plugins/wp-piwik/)
 * Bugs behoben
-* 
 
 = 1.0.3 =
 * Datum: 30.05.2015
