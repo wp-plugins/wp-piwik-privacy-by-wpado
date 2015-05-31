@@ -14,7 +14,7 @@ Mit diesem Plugin kann der Besucher den Trackingprozress des Analyse-Tools [Piwi
 
 Der Seiteninhaber kann die Deaktivierungsmöglichkeit mit dem Shortcode
 
-`[wpado_piwik_privacy]´
+    [wpado_piwik_privacy]
 
 einfügen.
 
@@ -26,7 +26,7 @@ einfügen.
 
 Der Shortcode sieht dann wie folgt aus:
 
-[wpado_piwik_privacy css="yes" width="100%" height="200px"]
+    [wpado_piwik_privacy css="yes" width="100%" height="200px"]
 
 **Voraussetzungen:**
 
