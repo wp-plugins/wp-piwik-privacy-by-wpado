@@ -14,11 +14,12 @@ Mit diesem Plugin kann der Besucher den Trackingprozress des Analyse-Tools [Piwi
 
 Der Seiteninhaber kann die Deaktivierungsmöglichkeit mit dem Shortcode
 
-[wpado_piwik_privacy]
+`[wpado_piwik_privacy]´
 
 einfügen.
 
 **Des Weiteren können folgende Optionen ausgewählt werden:** 
+
 * css: "yes" oder "no" (Wenn das Piwik-Plugin "CustomOptOut" installiert und aktiviert ist, kann die Ausgabe angepasst werden) 
 * width: z.B. "100%" 
 * height: z.B. "200px" 
